@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
+        <a href="https://vitejs.dev" target="_blank" rel="">
           <img src={react} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
