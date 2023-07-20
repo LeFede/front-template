@@ -5,6 +5,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const a = 3
+  const b = 4
   return (
     <>
       <div>
