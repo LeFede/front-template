@@ -27,4 +27,9 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': ['off'],
   },
   ignorePatterns: ['.eslintrc.cjs', 'vite.config.ts'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 }
