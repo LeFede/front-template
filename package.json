@@ -28,8 +28,10 @@
     ]
   },
   "eslintIgnore": [
+    "**.d.ts",
     "node_modules",
-    "__test__"
+    "__test__",
+    "dist"
   ],
   "devDependencies": {
     "@types/node": "^20.4.2",

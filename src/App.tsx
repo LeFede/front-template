@@ -4,14 +4,10 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const a = 3
-  const b = 4
-  const c = 5
-  const d = 5
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank" rel="">
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={react} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
