@@ -25,6 +25,7 @@ module.exports = {
     'no-console': ['error'],
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-function-return-type': ['off'],
+    'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
   },
   ignorePatterns: ['.eslintrc.cjs', 'vite.config.ts'],
   settings: {
