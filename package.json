@@ -9,7 +9,10 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prepare": "husky install",
-    "test": "vitest --run --reporter verbose"
+    "test": "vitest --run --reporter verbose",
+    "prettier": "npx prettier --write .",
+    "fix": "npx eslint --fix './src/**/**.ts*'",
+    "pre": "npx eslint --fix './src/**/**.ts*' && npx prettier --write ."
   },
   "dependencies": {
     "react": "^18.2.0",
