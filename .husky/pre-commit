@@ -2,5 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx prettier --write .
-npx eslint --fix './src/**/**.*s*'
+npx eslint --fix './src/**/**.ts*'
 npx lint-staged
