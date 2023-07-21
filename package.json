@@ -12,7 +12,8 @@
     "test": "vitest --run --reporter verbose",
     "prettier": "npx prettier --write .",
     "fix": "npx eslint --fix './src/**/**.ts*'",
-    "pre": "npx eslint --fix './src/**/**.ts*' './src/**/**.js*' --no-error-on-unmatched-pattern && npx prettier --write ."
+    "pre": "npx eslint --fix './src/**/**.ts*' './src/**/**.js*' --no-error-on-unmatched-pattern && npx prettier --write .",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -24,9 +25,14 @@
   },
   "lint-staged": {
     "**/*.{js,jsx}": [
-      "eslint"
+      "git add .",
+      "eslint --fix './src/**/**.ts*' './src/**/**.js*' --no-error-on-unmatched-pattern",
+      "prettier --write"
     ],
     "**/*.{ts,tsx}": [
+      "git add .",
+      "eslint --fix './src/**/**.ts*' './src/**/**.js*' --no-error-on-unmatched-pattern",
+      "prettier --write",
       "eslint"
     ]
   },
