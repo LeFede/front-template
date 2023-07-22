@@ -13,11 +13,12 @@
     "prettier": "npx prettier --write .",
     "fix": "npx eslint --fix './src/**/**.ts*' './src/**/**.js*' --no-error-on-unmatched-pattern ",
     "preasd": "npx eslint --fix './src/**/**.ts*' './src/**/**.js*' --no-error-on-unmatched-pattern && npx prettier --write .",
-    "pre": "git add . && lint-staged && git commit -m "
+    "pre": "git add . && lint-staged"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
   },
   "prettier": {
     "semi": false,
