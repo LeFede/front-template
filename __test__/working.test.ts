@@ -1,6 +1,6 @@
-import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect } from 'vitest'
 
-describe('Stack', () => {
+describe('Tests work!', () => {
   it('returns true', () => {
     expect(true).toBe(true)
   })
