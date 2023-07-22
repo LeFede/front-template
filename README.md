@@ -1,5 +1,10 @@
 # Vite + ESLint(standard) + Vitest + Typescript
 
+`git clone https://github.com/LeFede/front-template.git BORRAR && cd $_ && pnpm i`
+
+`npm run pre`
+
+>
 
 <!-- # React + TypeScript + Vite -->
 <!---->
