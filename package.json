@@ -11,9 +11,9 @@
     "prepare": "husky install",
     "test": "vitest --run --reporter verbose",
     "prettier": "npx prettier --write .",
-    "fix": "npx eslint --fix './src/**/**.ts*'",
+    "fix": "npx eslint --fix './src/**/**.ts*' './src/**/**.js*' --no-error-on-unmatched-pattern ",
     "preasd": "npx eslint --fix './src/**/**.ts*' './src/**/**.js*' --no-error-on-unmatched-pattern && npx prettier --write .",
-    "pre": "git add . && lint-staged"
+    "pre": "git add . && lint-staged && git commit -m "
   },
   "dependencies": {
     "react": "^18.2.0",
