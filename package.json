@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "pre": "git add . && lint-staged",
     "test": "vitest --run --reporter verbose",
     "testw": "vitest --ui",
@@ -28,7 +29,7 @@
   },
   "lint-staged": {
     "**/*.{js,jsx}": [
-      "eslint --fix './src/**/**.ts*' --no-error-on-unmatched-pattern",
+      "eslint --fix './src/**/**.js*' --no-error-on-unmatched-pattern",
       "prettier --write"
     ],
     "**/*.{ts,tsx}": [

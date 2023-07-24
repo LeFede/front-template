@@ -5,7 +5,7 @@ export const Page = () => {
 
   return (
     <>
-      <h6>hello world</h6>
+      <h6>hello world</h6>xd
       <Component title="hola" action={doSomething}>
         <p>hola</p>
       </Component>
