@@ -4,8 +4,11 @@ export const Page = () => {
   const doSomething = () => {}
 
   return (
-    <Component title="hola" action={doSomething}>
-      <h3>xd</h3>
-    </Component>
+    <>
+      <h6>hello world</h6>
+      <Component title="hola" action={doSomething}>
+        <p>hola</p>
+      </Component>
+    </>
   )
 }
