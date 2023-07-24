@@ -26,3 +26,8 @@ dist-ssr
 # 
 coverage
 aaaa
+
+cypress
+cypress/*
+!cypress/e2e
+!cypress/e2e/*
