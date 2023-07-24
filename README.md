@@ -1,10 +1,17 @@
 # Vite + ESLint(standard) + Vitest + Typescript
 
+Install:
 `git clone https://github.com/LeFede/front-template.git && cd front-template && pnpm i`
 
+Before commit:
 `npm run pre`
 
->
+`pnpm run dev`
+`pnpm run cypress:open`
+`pnpm run test`
+`pnpm run build`
+
+
 
 
 
